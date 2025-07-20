@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="ClickClash.png">
+    <title>Mini Game</title>
+</head>
+<body>
+    <h2 id="name"><ins><i>Click Clash</ins></i></h2>
+    <div id="body1">
+        <p>Player 1: <span id="p1">0</span></p>
+        <p>Player 2: <span id="p2">0</span></p>
+
+        <button onclick="incrementPlayer1()" id="btn1">+1 Player 1</button>
+        <button onclick="incrementPlayer2()" id="btn2">+1 Player 2</button><br>
+        <button onclick="showResult()" id="btn3">Result</button>
+        <button id="reset" onclick="reset()"> Reset</button>
+        <p id="result"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
