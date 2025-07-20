@@ -14,3 +14,4 @@ Click Clash is a fun and fast-paced 2-player browser game where players compete 
 - JavaScript 
 
 Play and enjoy!
+https://rafia75.github.io/Click-Clash-Mini-Game-/
